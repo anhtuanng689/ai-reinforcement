@@ -25,46 +25,47 @@ def question2():
     return answerDiscount, answerNoise
 
 def question3a():
-    answerDiscount = 0.9
-    answerNoise = 0
-    answerLivingReward = -4
+    answerDiscount = 1
+    answerNoise = 0.2
+    answerLivingReward = -1
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
 
 def question3b():
-    answerDiscount = 0.5
-    answerNoise = 0.4
-    answerLivingReward = -0.6
+    answerDiscount = 0.3
+    answerNoise = 0.3
+    answerLivingReward = 0
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
 
 def question3c():
     answerDiscount = 1
-    answerNoise = 0
-    answerLivingReward = -0.1
+    answerNoise = 0.2
+    answerLivingReward = -0.5
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
 
 def question3d():
-    answerDiscount = 0.8
-    answerNoise = 0.4
+    answerDiscount = 1
+    answerNoise = 0.2
     answerLivingReward = -0.1
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
 
+
 def question3e():
     answerDiscount = 1
-    answerNoise = 0
-    answerLivingReward = 1
+    answerNoise = 0.5
+    answerLivingReward = 100
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
 
 def question6():
-    answerEpsilon = 0.95 # even though epsilon is ~1, the agent isn't even getting close to the better state
-    answerLearningRate = 0.8
-    # return answerEpsilon, answerLearningRate
+    answerEpsilon = 0.1
+    answerLearningRate = 0.9
+    return "NOT POSSIBLE"
+    return answerEpsilon, answerLearningRate
     # If not possible, return 'NOT POSSIBLE'
-    return 'NOT POSSIBLE'
 
 if __name__ == '__main__':
     print 'Answers to analysis questions:'
